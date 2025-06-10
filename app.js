@@ -39,7 +39,7 @@ generateBtn.addEventListener("click", () => {
             return false;
         }
         // Multiply by number of scoops
-        price *= scoops; // Convert scoops to integer
+        price *= scoops; 
         return true; // Indicate successful calculation
     }
 
